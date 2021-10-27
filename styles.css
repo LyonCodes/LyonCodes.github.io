@@ -1,18 +1,31 @@
 *{
+  box-sizing: border-box;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+span{
+  padding: 0 .65em;
+}
+iframe{
+  height: 300px;
+  margin-top: 3em;
+  width: 90%;
+}
+.col-60{
+  width: 60%;
 }
 .sketchfab-embed-wrapper{
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
-iframe{
-  height: 500px;
-  margin-top: 3em;
-  width: 100%;
-}
 .headline{
   width: 80%;
 }
+/*  */
+.art-box{
+  display: flex;
+}
+/*  */
